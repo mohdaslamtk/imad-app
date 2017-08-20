@@ -19,21 +19,15 @@ var articleOne : {
                 <p>
                     Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
                 </p>`
-};
+},
 var articleTwo : {
-    title:'Article One|Aslam',
-    heading:'Article One',
-    date :'Aug 5 2017',
+    title:'Article Two|Aslam',
+    heading:'Article Two',
+    date :'Aug 10 2017',
     content:`   <p>
-                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
-                </p>
-                <p>
-                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
-                </p>
-                <p>
-                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
+                    Content for article Two
                 </p>`
-};
+},
 var articleThree : {
     title:'Article One|Aslam',
     heading:'Article One',
@@ -47,7 +41,7 @@ var articleThree : {
                 <p>
                     Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
                 </p>`
-};
+}
 };
 
 function createTemplate(data){
