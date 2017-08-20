@@ -5,7 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne = {
+var articles = {
+var articleOne : {
     title:'Article One|Aslam',
     heading:'Article One',
     date :'Aug 5 2017',
@@ -18,6 +19,35 @@ var articleOne = {
                 <p>
                     Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
                 </p>`
+};
+var articleTwo : {
+    title:'Article One|Aslam',
+    heading:'Article One',
+    date :'Aug 5 2017',
+    content:`   <p>
+                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
+                </p>
+                <p>
+                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
+                </p>
+                <p>
+                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
+                </p>`
+};
+var articleThree : {
+    title:'Article One|Aslam',
+    heading:'Article One',
+    date :'Aug 5 2017',
+    content:`   <p>
+                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
+                </p>
+                <p>
+                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
+                </p>
+                <p>
+                    Content for article One,Content for article One,Content for article One,Content for article One,Content for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article OneContent for article One
+                </p>`
+};
 };
 
 function createTemplate(data){
